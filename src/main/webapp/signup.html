@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Signup Page</title>
+<style>
+div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+</style>
+</head>
+<body>
+	<div>
+		<h1>To Do Signup</h1>
+		<form action="signup" method="post">
+			<fieldset>
+				<legend>Signup here,</legend>
+
+				<table>
+					<tr>
+						<th>
+							<h1>Enter Details</h1>
+						</th>
+					</tr>
+					<tr>
+						<th>Name:</th>
+						<th><input type="text" name="name"></th>
+					</tr>
+					<th>Email:</th>
+					<th><input type="text" name="email"></th>
+					<tr>
+						<th>Password:</th>
+						<th><input type="text" name="password"></th>
+					</tr>
+					<th>Mobile:</th>
+					<th><input type="tel" pattern="[0-9]{10}" name="mobile"></th>
+					<tr>
+						<th>Gender:</th>
+						<th><input type="radio" value="male" name="gender">Male
+							<input type="radio" value="female" name="gender">Female</th>
+					</tr>
+					<tr>
+						<th>DOB:</th>
+						<th><input type="date" name="date"></th>
+					</tr>
+					<tr>
+						<th><button>Signup</button></th>
+						<th><button type="reset">Cancel</button></th>
+					</tr>
+					<tr>
+						<th colspan="2"><a href="login.html"><button
+									type="button">Click if Already have Account</button></a></th>
+					</tr>
+
+				</table>
+
+
+
+
+
+
+
+
+
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>
